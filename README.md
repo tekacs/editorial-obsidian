@@ -1,6 +1,10 @@
 # Editorial workflows for Obsidian (unofficial, by [@tekacs](https://github.com/tekacs))
 
-These workflows assume that you store your files in Dropbox, using your Vault folder as your root for syncing.
+These workflows assume:
+- You store your files in Dropbox, to sync them to Editorial with.
+- You choose your Vault folder as the Dropbox folder to sync with in Editorial.
+- Your journal entries are stored at `/Journal/`.
+- Your Zettelkasten entries are stored at `/Zettel/`
 
 I'm using these personally and I'll update the links here as I find and fix any issues. Please feel free to [report any issues](https://github.com/tekacs/editorial-obsidian/issues) that you run into. I'll take a look at them when I can spare the time. If you suggest fixes, please provide Python or screenshots rather than (relatively opaque) Editorial links. :)
 
@@ -10,8 +14,8 @@ You can install the workflows by clicking the links below:
 
 - [autocomplete][]: With the cursor placed inside an incomplete `[[link]]`, suggest vault files to link like the dropdown in Obsidian.
 - [follow][]: Follow the `[[link]]` under the cursor, just like Ctrl-Click in Obsidian.
-- [create-zettel][]: Create Zettelkasten file, at 'Zettel/<date> <title>.md'
-- [today][]: Go to your 'today' file, at 'Journal/YYYY-MM-DD.md'
+- [create-zettel][]: Create Zettelkasten file, at `Zettel/YYYYMMDDHHMM <prompted title>.md`
+- [today][]: Go to your 'today' file, at `Journal/YYYY-MM-DD.md`
 - [copy-name][]: Copy the name of the current file, to be used inside a [[link]].
 - [a shortcut for inserting links from clipboard](./clipboard-links.png): you can use 'copy-name' and then type 'ddd' to create a link, if you create a shortcut as per this image.
 
