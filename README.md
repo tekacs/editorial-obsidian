@@ -1,13 +1,19 @@
 # Editorial workflows for Obsidian (unofficial, by [@tekacs](https://github.com/tekacs))
 
+These workflows assume that you store your files in Dropbox, using your Vault folder as your root for syncing.
+
+I'm using these personally and I'll update the links here as I find and fix any issues. Please feel free to [report any issues](https://github.com/tekacs/editorial-obsidian/issues) that you run into. I'll take a look at them when I can spare the time. If you suggest fixes, please provide Python or screenshots rather than (relatively opaque) Editorial links. :)
+
 [View on Github](https://github.com/tekacs/editorial-obsidian)
 
-- [autocomplete][]: Autocomplete
-- [follow][]: Follow Obsidian link
-- [create-zettel][]: Create Zettel (using Obsidian's convention, including increment on clash)
-- [today][]: Go to Today file
-- [copy-name][]: Copy file name (for linking)
-- [Shortcut to insert link to file named on clipboard](./clipboard-links.png)
+You can install the workflows by clicking the links below:
+
+- [autocomplete][]: With the cursor placed inside an incomplete `[[link]]`, suggest vault files to link like the dropdown in Obsidian.
+- [follow][]: Follow the `[[link]]` under the cursor, just like Ctrl-Click in Obsidian.
+- [create-zettel][]: Create Zettelkasten file, at 'Zettel/<date> <title>.md'
+- [today][]: Go to your 'today' file, at 'Journal/YYYY-MM-DD.md'
+- [copy-name][]: Copy the name of the current file, to be used inside a [[link]].
+- [a shortcut for inserting links from clipboard](./clipboard-links.png): you can use 'copy-name' and then type 'ddd' to create a link, if you create a shortcut as per this image.
 
 [autocomplete]: editorial://add-workflow?workflow-data-b64=eNrVVuFu2zYQfhVBWyGpUdVkwIBBWBckqVcYdRPDNtYWlmawEu1wkUmCpJwMht99dxQlyw42NH-y1jBs8u67433H45FbnxSGCa79dL71Jak1vaRLoeik5pzxlZ8uSaVp3Kg-MnMrajO9FfegGxNF1tRQpTtUUWsj1jNmKuqnvg-CimhQ-x-FultW4v7CrjY1sMIfRDHyBYDofO9p63MYg4k2RBlQbkhVU5SbvyXKSbkhvKDljD6g2og7yieEryga70CA8tQ_9Xe7XfyNcaK8_H4YgfNpoZg0j9joRpz6P3iFKGGR1KvN8tUvGc84W0uhDMi5FhXt5rRkkKBuKnQ3VHvQkq-JKW67-b2LB_0OPo0ni9Hw-r33xguybA7fcP5nmr88j7Ish2-Q8beTm_HlzafF5cV0ADChE0nMbfKXYDwEH6YVlEzhhlhZZprQkhU1C9SGEYqjRMuKmTB4q4T8Ih6CaH6ax6jpJBlHJC_pEjhUxLANDdFBlCJMUVMr7tn1FJUVKWjYjy_2gqCzXzJe4uKQYB66_9hrnXnwUVTXlQFS87wRwPZ7SggTe8BGx-CiotpjHFnfk-ou7Fu3BsgaMRbc0-GHLdv8J-4_RLgNA-OJjvD7qBIiJVR2eJDvJjb0EEUtBZuRxqZljlkX0ragsF0B6x2Y9vYFJaFzo2lFiyN9IwMnLahi_A4g14JTZ4Xd5EACER_MMT-WNiZI0QT3hAHxsKu82EYWo3L47vpmMriCfeynRUvCwWeTRJy04bj8ogjKyPv1jWOBEwJxWMVZ7v3WKc7yo3Q7Ro3vlRK1hISB_SGqpelWOlQ2jN1ajar5hdCse6Y9LozNSW91t29rIsO2zuPDij1cJngZeCeNwxM3CZJ1GcSHsP5h2GuiKG5IxBguVomrjr4YWBzUDcLaXpFo0GxcHw4DaxSgsQrtGKvxX7Dg2SFh9AgHLVXWxvYM6D88aMrcxRDZZuA_741jK-V3JdYjph83abO3r1D_lfeNvz2NvbMdwIYc-Pr7--ccxxqiHvKxkGJDVRcxqSCqD3CsmazotD2MTv2sSfmA52NCV3VF1OBBQrPRGMlxchRd0YenX8HZa7hzstf5Cdw5UNI_YkbsiXyHBxIAZ_639-hoOgotF9j1n_r8-M9y-B_K3Qb2eDut9Ksp_eQoNc-xjmHz4uwxTJ-b46R5KEzdjrnwj0vXYtaUm6czPq6F7c9O8aKolRaqx34-P89zm4A8bkuJ1EYUYg2H3KA1K_CQ-7PP4-HVzfX01cVotBiMBlezyfBqOPucSMjT7h-6dznc
 
