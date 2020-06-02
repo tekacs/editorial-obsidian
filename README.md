@@ -1,5 +1,7 @@
 # Editorial workflows for Obsidian (unofficial, by [@tekacs](https://github.com/tekacs))
 
+[View on Github](https://github.com/tekacs/editorial-obsidian)
+
 - [autocomplete][]: Autocomplete
 - [follow][]: Follow Obsidian link
 - [create-zettel][]: Create Zettel (using Obsidian's convention, including increment on clash)
